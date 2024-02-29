@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    class="bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 flex items-center justify-center h-screen"
+  >
+    <div class="text-center">
+      <input
+        id="pokemonName"
+        class="border rounded px-4 py-2"
+        placeholder="Enter your pokemon name"
+      />
+      <button
+        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        onclick="fetchData()"
+      >
+        Fetch Pokemon</button
+      ><br />
+      <img
+        src=""
+        alt="Pokemon Sprite"
+        id="pokemonSprite"
+        style="display: none"
+        class="mt-4"
+        width="50%"
+      />
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
